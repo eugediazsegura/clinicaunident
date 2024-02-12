@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+/*font-family: 'Poppins', sans-serif;*/
+:root {
+  --primary-color: #01548B;
+  --secondary-color: #FCA721;
+  
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+#root {
+  position: relative;
+}
+
+header { 
+  position: absolute;
+}
+
+body {
+  margin: 0;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  border-radius: 1.5rem;
+  border: 0;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  
+}
