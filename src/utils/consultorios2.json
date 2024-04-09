@@ -1,0 +1,251 @@
+[   
+    {
+        "provincia": "Todas",
+        "consultorios": [
+            {
+                "consultorio": "General",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&noprof=1",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana","ortopedia", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "fluor", "cirugias", "protesis", "implantes"]
+            }
+        ]
+    },
+    {
+        "provincia": "Cordoba Capital",
+        "consultorios": [
+            {
+                "consultorio": " calle Gral. Jose Artigas",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-31.413560688563457%2C-64.19680417496156&z=18&noprof=1&noprof=1",
+                "direccion": "se encuentra en  Gral. Jose Artigas 89.",
+                "horarios": [
+                    {
+                        "name": "Lunes a Viernes",
+                        "value": " de 9:30 a 19:30 hs.",
+                        "hours": ["9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30","16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00"] 
+                    },
+                    {
+                        "name": "Sábados",
+                        "value": " de 10:30 a 17:30 hs.",
+                        "hours": ["10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30","16:00", "16:30", "17:00"]
+                    }
+                ],
+                "telefono": "+54 9 3516 53-8619",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana","ortopedia", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "cirugias"], 
+                "lunesaviernes": ["9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30","16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00"],
+                "sabados": ["10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30","16:00", "16:30", "17:00"]
+            },
+            {
+                "consultorio": "calle Jujuy",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-31.413888003168235%2C-64.1913584203766&z=18&noprof=1&noprof=1",
+                "direccion": "se encuentra en  Jujuy 8.",
+                "horarios": {
+                    "lunesaviernes": "de 9:00 a 18:00 hs.", 
+                    "sabados": " de 9:00 a 12:00 hs."
+                },
+                "telefono": "",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "ortopedia", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "cirugias","protesis", "implantes"], 
+                "lunesaviernes": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00, 17:30"],
+                "sabados": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30"]
+            },
+            {
+                "consultorio": "calle Rafael Nuñez",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-31.342261022856643%2C-64.25354612037658&z=18&noprof=1",
+                "direccion": "se encuentra en Av. Rafael Núñez 6492.",
+                "horarios": {
+                    "lunes": "de 9:00 a 12:00 hs y de 14:00 a 17:00 hs.",
+                    "martes": "de 9:00 a 12:00 hs y de 14:00 a 17:00 hs."
+                },
+                "telefono": "",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana","ortopedia", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "cirugias", "protesis"], 
+                "lunes": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"],
+                "martes": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"]
+            }
+        ]
+    },
+    {
+        "provincia": "Cordoba Interior",
+        "consultorios": [
+            {
+                "consultorio": "Alta Gracia",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-31.656728676676767%2C-64.43102932037658&z=18&noprof=1&noprof=1",
+                "direccion": "se encuentra en Carignani (ex Chile) 285 Dentro de SMATA.",
+                "horarios": {
+                    "lunesaviernes": "de 9:00 a 16:00 hs."
+                },
+                "telefono": "+54 9 3547 62-4353",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana","ortopedia", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "fluor"], 
+                "lunesaviernes": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30"]
+            },
+            {
+                "consultorio": "Carlos Paz",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-31.41841670825159%2C-64.50311642037659&z=18&noprof=1&noprof=1",
+                "direccion": "se encuentra en Arruabarrena 150 1er piso En diagonal al boliche Zebra, arriba del bar.",
+                "horarios": {
+                    "lunes a viernes": "de 9:00 a 17:00 hs.", 
+                    "lunes": " de 9:00 a 20:00 hs."
+                },
+                "telefono": "+54 9 3541 22-0493",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "ortopedia", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "fluor", "cirugias","protesis", "implantes"], 
+                "lunesaviernes": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+                "lunes": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30"]
+            },
+            {
+                "consultorio": "Jesús María",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-30.987493627504833%2C-64.09998232037658&z=18&noprof=1",
+                "direccion": "se encuentra en Calle Córdoba 1388 Dentro de SMATA",
+                "horarios": {
+                    "martes": "de 9:00 a 14:30 hs.",
+                    "miercoles": "de 9:00 a 13:30 hs."
+                },
+                "telefono": "+54 9 3525 56-4627",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana","ortopedia", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "fluor"], 
+                "martes": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00"],
+                "miercoles": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00"]
+            },
+            {
+                "consultorio": "San Francisco",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-31.424111514644753%2C-62.082603620376595&z=18&noprof=1",
+                "direccion": "se encuentra en Juan José Paso 1518, Dentro de SMATA.",
+                "horarios": {
+                    "lunesaviernes": "de 8:00 a 16:00 hs. De 12:00 a 13:00 hs solo administrativo."
+                },
+                "telefono": "+54 9 3564 20-4827",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "fluor"], 
+                "lunesaviernes": ["08:00", "08:30", "9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30"]
+            }
+        ]
+    },
+    {
+        "provincia": "Jujuy",
+        "consultorios": [
+            {
+                "consultorio": "Sucursal La Viña",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-24.17992414348218%2C-65.2851196203766&z=18&noprof=1",
+                "direccion": "se encuentra en Calle Amado Jorge 56.",
+                "horarios": {
+                    "lunesaviernes": "de 8:00 a 12:30 hs."
+                },
+                "telefono": " +54 9 388 576-8878",
+                "ortodoncia": [ "brackets-metalicos", "contenciones"],
+                "lunesaviernes": ["08:00", "08:30", "9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00"]
+            },
+            {
+                "consultorio": "Sucursal Brown",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-24.198463359840552%2C-65.28772312037658&z=18&noprof=1",
+                "direccion": "se encuentra en Av. Almte. Brown 857.",
+                "horarios": {
+                    "lunesaviernes": "de 8:00 a 12:30 hs."
+                },
+                "telefono": "+54 9 388 517-1739",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "cirugias", "extracciones", "protesis", "implantes"], 
+                "lunesaviernes": ["08:00", "08:30", "9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00"]
+            }
+        ]
+    },
+    {
+        "provincia": "Mendoza",
+        "consultorios": [
+            {
+                "consultorio": "Godoy Cruz",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-32.91386272262399%2C-68.8465956203766&z=18&noprof=1",
+                "direccion": "se encuentra en Av. San Martín 1034 Primer Piso. Dentro de la Clinica Schweizer.",
+                "horarios": {
+                    "lunesaviernes": "de 8:20 a 18:00 hs.", 
+                    "sabados": " de 8:20 a 12:00 hs."
+                },
+                "telefono": "+54 9 261 509-5611",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones"], 
+                "lunesaviernes": ["08:20","9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30"],
+                "disponibilidad2": ["08:20","9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00"]
+            },
+            {
+                "consultorio": "San Rafael",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-34.619278263747105%2C-68.33495612037657&z=18&noprof=1",
+                "direccion": " se encuentra en Tomás Godoy Cruz 333.",
+                "horarios": {
+                    "lunesaviernes": "de 9:30 a 17:45 hs. De 13:00 a 14:00 hs solo administrativo."
+                },
+                "telefono": "+54 9 261 469-6164",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "fluor"], 
+                "lunesaviernes": [ "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"]
+            } 
+        ]
+    },
+    {
+        "provincia": "Rio Negro",
+        "consultorios": [
+            {
+                "consultorio": "General Roca",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-39.040054268845914%2C-67.57638902037657&z=18&noprof=1",
+                "direccion": "se encuentra en el Consultorio CIME en esquina Brasil e Italia.",
+                "horarios": {
+                    "lunesaviernes": "de 9:00 a 17:45 hs. De 14:00 a 15:00 hs solo administrativo.", 
+                    "sabados": " de 9:00 a 12:45 hs."
+                },
+                "telefono": "+54 9 298 413-412",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "fluor"], 
+                "lunesaviernes": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+                "disponibilidad2": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00"]
+            },
+            {
+                "consultorio": "Cipolletti",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-38.93432312559986%2C-67.99414672037656&z=18&noprof=1",
+                "direccion": " se encuentra en Miguel Muñoz 670, Dentro del Consultorio Médico Alto Valle.",
+                "horarios": {
+                    "lunesaviernes": "de 9:00 a 17:45 hs. De 14:00 a 15:00 hs solo administrativo.", 
+                    "sabados": " de 9:00 a 12:45 hs."
+                },
+                "telefono": "+54 9 299 466-9167",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "fluor"], 
+                "lunesaviernes": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "15:00", "15:30", "16:00", "16:30", "17:00"],
+                "disponibilidad2": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00"]
+            }
+        ]
+    },
+    {
+        "provincia": "Salta",
+        "consultorios": [
+            {
+                "consultorio": "Salta",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-24.788313786446206%2C-65.40636822037658&z=18&noprof=1",
+                "direccion": "se encuentra en Vicente López 143 Dentro de Medicina San Vicente.",
+                "horarios": {
+                    "lunesaviernes": "de 9:00 a 17:00 hs. De 13:00 a 14:00 hs solo administrativo."
+                },
+                "telefono": " +54 9 387 220-7467",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
+                "odontologia": [ "limpiezas"], 
+                "lunesaviernes": ["9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"]
+            }
+        ]
+    },
+    {
+        "provincia": "Santiago del Estero",
+        "consultorios": [
+            {
+                "consultorio": "Santiago del Estero",
+                "mapa": "https://www.google.com/maps/d/embed?mid=1Cckg8o3qSOs2gNWaMJ86F3U-DKB0vCs&ehbc=2E312F&ll=-27.784744743708398%2C-64.25791042037659&z=18&noprof=1",
+                "direccion": "se encuentra en Av. Libertad 141 Dentro del Consultorio Médico Libertad.",
+                "horarios": {
+                    "lunesaviernes": "de 8:30 a 12:30 hs y de 14:00 a 18:00 hs."
+                },
+                "telefono": "+54 9 385 412-6117",
+                "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
+                "odontologia": [ "limpiezas", "caries", "extracciones", "fluor", "cirugias"], 
+                "lunesaviernes": ["08:30", "9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30"]
+            }
+        ]
+    }
+]

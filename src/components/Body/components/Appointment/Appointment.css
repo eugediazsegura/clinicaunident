@@ -1,0 +1,57 @@
+.appointment {
+    background-image: url('/src/assets/fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 200vh;
+    margin-top: -50vh;
+}
+
+.formulario-turnos {
+    width: 100%;
+    padding: 4rem;
+  }
+
+@media screen and (max-width: 1600px) {
+    .appointment {
+        height: 190vh;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .appointment {
+        height: 180vh;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .appointment {
+        height: 170vh;
+    }
+}
+
+.appointment-form {
+    position: absolute;
+    width: 65%;
+    background-color: rgba(1, 84, 139, 0.58);
+    border-radius: 3rem;
+    left: 17.5%;
+    bottom: 10rem;
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+    .appointment {
+        margin-top: -30vh;    
+    }
+    .appointment-form {
+        width: 80%;
+        left: 10%;
+    }
+
+    .formulario-turnos {
+        padding: 2rem;
+      }
+    
+}

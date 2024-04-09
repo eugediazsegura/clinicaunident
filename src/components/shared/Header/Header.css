@@ -1,10 +1,10 @@
 header {
-    top: 10%;
+    top: 5vh;
     left: 10px;
     z-index: 10;
-    height: 5.5rem;
+    height: 11vh;
     background-color: white;
-    width: 100%;
+    width: -webkit-fill-available;
 }
 
 nav {
@@ -13,10 +13,163 @@ nav {
     height: inherit;
 }
 
-ul {
+nav > ul {
     display: flex;
     list-style: none;
-   width: 40%;
+   width: 50%;
    align-items: center;
    justify-content: space-evenly;
+}
+
+ul li a {
+    font-size: 1.2rem;
+}
+
+.logo {
+    height: 15vh;
+    margin-top: 2vh;
+}
+
+.menu {
+    display: none;
+    width: 100%;
+}
+
+#hamburguesa {
+    display: none;
+}
+
+#hamburguesa:checked~.menu {
+    display: block;
+    position: absolute;
+}
+
+/* imagen de hamburguesa */
+.nav--hamburguesa::after {
+    content: url(../../../assets/icona.svg);
+
+}
+
+#hamburguesa:checked+.nav--hamburguesa::after {
+    content: url(../../../assets/iconb.svg);
+
+}
+
+.nav--hamburguesa {
+    width: 1.3rem;
+    margin-right: 1.45rem;
+}
+
+
+
+@media (max-width: 450px) and (min-width:425px) {
+    .nav--hamburguesa {
+        width: 1.6rem;
+    }
+
+    #hamburguesa:checked~.menu {
+        font-size: 1.3rem;
+        height: 14rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .banner-container img {
+        margin-top: 11vh;
+        opacity: 0.5;
+    }
+
+    ul.menu {
+        /* top: 5rem; */
+        background: #01548b;
+        padding: 2rem;
+        margin: 0;
+        top: 5rem;
+        font-weight: 300;
+    }
+
+    .banner-text {
+        width: 57%;
+        top: 8rem;
+        left: 6rem;
+        opacity: 100%;
+    }
+
+    .banner-text h1 {
+        width: 80%;
+    }
+
+    .banner-text button {
+        font-size: 1rem;
+    }
+    ul.menu li a {
+        color: white;
+    }
+    nav {
+        align-items: center;
+    }
+
+    header {
+        top: 0;
+        background-color: #ffffff87;
+        left: 0;
+    }
+
+    img.logo {
+        height: 4rem;
+    }
+}
+
+@media (max-width: 320px)  {
+    #hamburguesa:checked~.menu {
+        font-size: 1rem;
+        color: white;
+        height: 13.5rem;
+    }
+
+    .banner-text {
+        top: 6.8rem;
+    }
+
+    .banner-text button {
+        font-size: 0.7rem;
+    }
+}
+@media (min-width:1024px) {
+
+    nav {
+        margin-top: 0;
+        flex-wrap: nowrap;
+    }
+
+    #hamburguesa,
+    .nav--hamburguesa {
+        display: none
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+    }
+
+    .menu li {
+        list-style: none;
+        margin: 0 1rem;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: var(--primary-color);
+
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .menu {
+        font-size: 1rem;
+        margin-right: 4.8rem;
+    }
 }

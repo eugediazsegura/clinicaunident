@@ -1,0 +1,62 @@
+.select-city {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .appointment-container h3 {
+    font-family: 'Fredoka';
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+  .select-container select {
+    font-family: 'Fredoka', sans-serif;
+    -webkit-appearance: none; 
+    -moz-appearance: none;    
+    appearance: none;         
+    padding: 10px 90px 10px 20px; 
+    border: none; 
+    color: var(--primary-color); 
+    border: 1.5px solid var(--primary-color);
+    border-radius: 1rem; 
+    font-size: 1.2rem; 
+    cursor: pointer; 
+  }
+  
+  .select-container i {
+    position: absolute;
+	right: 20px;
+	top: calc(50% - 10px);
+	width: 13px;
+	height: 13px;
+	display: block;
+	border-left:2px solid var(--primary-color);
+	border-bottom:2px solid var(--primary-color);
+	transform: rotate(-45deg); 
+	transition: all 0.25s ease;
+  }
+  
+  .select-container select:focus {
+    outline: none;  
+  }
+
+  .i4ewOd-pzNkMb-haAclf {
+    display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .appointment-container h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+}

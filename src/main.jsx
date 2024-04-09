@@ -5,6 +5,6 @@ import { UnidentApp } from './components/Unident/UnidentApp.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <UnidentApp />
-  </React.StrictMode>,
+      <UnidentApp />
+  </React.StrictMode>
 )
