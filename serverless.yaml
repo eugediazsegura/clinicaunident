@@ -92,6 +92,6 @@ resources:
                 Forward: none
             ViewerProtocolPolicy: redirect-to-https
           ViewerCertificate:
-            AcmCertificateArn: ACM_CERTIFICATE
+            AcmCertificateArn: arn:aws:acm:us-east-1:339713137955:certificate/ebb98bf0-4096-45da-b43c-67bee4cef13f
             SslSupportMethod: sni-only
           HttpVersion: http2

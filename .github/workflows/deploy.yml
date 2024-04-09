@@ -29,9 +29,6 @@ jobs:
         run: |
           npm i -g serverless
           npm i
-      - name: Add certificate
-        run: |
-          sed -i 's/ACM_CERTIFICATE/{{ secrets.ACM_CERTIFICATE }}/g' serverless.yaml
       - name: Install s3 plugin
         run: |
           sls plugin install -n serverless-s3-sync
