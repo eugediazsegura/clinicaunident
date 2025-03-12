@@ -11,12 +11,14 @@ node_modules
 dist
 dist-ssr
 *.local
-
+/serverless
+.git
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
@@ -25,3 +27,13 @@ dist-ssr
 .serverless/cloudformation-template-create-stack.json
 .serverless/cloudformation-template-update-stack.json
 .serverless/serverless-state.json
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+package-lock.json
+yarn.lock
+.eslintcache
+doc/
+.qodo

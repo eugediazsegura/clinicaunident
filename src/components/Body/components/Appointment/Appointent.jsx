@@ -5,7 +5,7 @@ import { DatePicker, LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import dayjs from 'dayjs';
 import 'dayjs/locale/es';
-import { useContext, useState } from 'react';
+import { useContext, useState, createRef } from 'react';
 import { AppContext } from '../../../../utils/AppContext';
 import { useFormik } from "formik";
 import * as Yup from 'yup';
@@ -13,6 +13,7 @@ dayjs.locale('es');
 
 
 export const Appointent = () => {
+    const buttonSubmit = createRef();
     const {provinciaSelected} = useContext(AppContext);
     const {consultorioSeleccionado} = provinciaSelected;
     const[ selectDay, setSelectDay] = useState([]);
@@ -34,10 +35,27 @@ export const Appointent = () => {
             email: Yup.string().required("El Email es requerido").email("El Email es invalido"),
         }),
         onSubmit: (data) => {
-            console.log(data);
+            const whatsappLink = `https://wa.me/${consultorioSeleccionado.telefono}?text=${
+                encodeURIComponent(
+                  `Turno agendado para el día ${formatDate(data.calendario)} a las ${data.horario} hs:
+                        Nombre: ${data.nombre} 
+                        Apellido: ${data.apellido}
+                        Celular: ${data.telefono}
+                        Email: ${data.email}`
+                )
+              }`;
+              console.log(whatsappLink);
+              // Redirige al usuario al enlace de WhatsApp
+              //window.location.href = whatsappLink;
+            
         }
-
     })
+
+    const formatDate = (stringDate) =>{
+        const d = new Date(stringDate);
+        const f = (el)=>("0"+el).slice(-2);
+        return stringDate? `${f(d.getDate())}-${f(d.getMonth() +1)}-${d.getFullYear()}`: '';
+    }
     const defineSelect = (event) => {
         const fecha = dayjs(event);
         setFieldValue('calendario', fecha);
@@ -85,6 +103,14 @@ export const Appointent = () => {
             }
 
         }
+
+    const animateSelect = () => {
+        console.log('animate');
+            document.getElementById('consultorios-select').classList.add("animation-select");
+            setTimeout(() => {
+                document.getElementById('consultorios-select').classList.remove("animation-select");
+            }, 3000);
+    }
     return(
         <div className='appointment'>
             <div className='appointment-form'>
@@ -174,7 +200,7 @@ export const Appointent = () => {
                             <>
                                  <Grid item xs={12} md={12}>
                                     <Typography variant='p' sx={{color: 'white', margin: '1rem', textAlign: 'left'}}>Turno para consultorio {consultorioSeleccionado.consultorio} {provinciaSelected.provinciaSeleccionada}</Typography>
-                                    <Link href='#consultorios' sx={{color: 'var(--secondary-color)', textDecoration: 'none'}}>Cambiar Consultorio</Link>
+                                    <Link href='#consultorios' sx={{color: 'var(--secondary-color)', textDecoration: 'none'}} onClick={() => animateSelect()}>Cambiar Consultorio</Link>
                                 </Grid> 
                                 <Grid item xs={12} md={7}>
                                 <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale="es">
@@ -233,10 +259,11 @@ export const Appointent = () => {
                                 </Grid>
                                 
                             </>
-                            : <Typography variant='h6' sx={{color: 'white', margin: '1rem'}}>Debe seleccionar un consultorio de su provincia para continuar con el formulario de reserva de turno <Link href='#consultorios' sx={{color: 'var(--secondary-color)'}}>Seleccionar Consultorio</Link> </Typography>
+                            : <Typography variant='h6' sx={{color: 'white', margin: '1rem'}} onClick={() => animateSelect()}>Debe seleccionar un consultorio de su provincia para continuar con el formulario de reserva de turno <Link href='#consultorios' sx={{color: 'var(--secondary-color)'}}>Seleccionar Consultorio</Link> </Typography>
                             }
                             <Button 
                                 type='submit' 
+                                ref={buttonSubmit}
                                 variant='contained' 
                                 color='secondary' 
                                 sx={{

@@ -51,7 +51,7 @@ export const Centers = () => {
             <div className="select-city">
                 <h3>¿Dónde se encuentran nuestros consultorios?</h3>
                 <div className="select-container">
-                    <select onChange={hookSelectConsultorio}>
+                    <select id='consultorios-select' onChange={hookSelectConsultorio}>
                         <option defaultValue={''} disabled selected>Seleccionar Provincia</option>
                         {provinciaSelected && db.map(provincia => provincia.provincia !== 'Todas' &&
                             <optgroup label={provincia.provincia} key={provincia.provincia}>

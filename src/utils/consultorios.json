@@ -30,7 +30,7 @@
                         "hours": ["10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30","16:00", "16:30", "17:00"]
                     }
                 ],
-                "telefono": "+54 9 3516 53-8619",
+                "telefono": "3516538619",
                 "ortodoncia": [ "brackets-metalicos", "brackets-porcelana","ortopedia", "contenciones"],
                 "odontologia": [ "limpiezas", "caries", "extracciones", "cirugias"]
             },
@@ -92,7 +92,7 @@
                         "hours": ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30"]
                     }
                 ],
-                "telefono": "+54 9 3547 62-4353",
+                "telefono": "3547624353",
                 "ortodoncia": [ "brackets-metalicos", "brackets-porcelana","ortopedia", "contenciones"],
                 "odontologia": [ "limpiezas", "caries", "extracciones", "fluor"]
             },
@@ -114,7 +114,7 @@
                     }
                     
                 ],
-                "telefono": "+54 9 3541 22-0493",
+                "telefono": "3541220493",
                 "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "ortopedia", "contenciones"],
                 "odontologia": [ "limpiezas", "caries", "extracciones", "fluor", "cirugias","protesis", "implantes"]
                 
@@ -136,7 +136,7 @@
                         "hours": ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00"]
                     }
                 ],
-                "telefono": "+54 9 3525 56-4627",
+                "telefono": "3525564627",
                 "ortodoncia": [ "brackets-metalicos", "brackets-porcelana","ortopedia", "contenciones"],
                 "odontologia": [ "limpiezas", "caries", "extracciones", "fluor"]
             },
@@ -152,7 +152,7 @@
                         "hours": ["08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30"]
                     }
                 ],
-                "telefono": "+54 9 3564 20-4827",
+                "telefono": "3564204827",
                 "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
                 "odontologia": [ "limpiezas", "caries", "extracciones", "fluor"]
             }
@@ -174,7 +174,7 @@
                         
                     }
                 ],
-                "telefono": " +54 9 388 576-8878",
+                "telefono": "3885768878",
                 "ortodoncia": [ "brackets-metalicos", "contenciones"]
             },
             {
@@ -189,7 +189,7 @@
                         "hours": ["08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00"]
                     }
                 ],
-                "telefono": "+54 9 388 517-1739",
+                "telefono": "3885171739",
                 "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
                 "odontologia": [ "limpiezas", "caries", "extracciones", "cirugias", "extracciones", "protesis", "implantes"]
             }
@@ -215,7 +215,7 @@
                         "hours": ["08:20","09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00"]
                     }
                 ],
-                "telefono": "+54 9 261 509-5611",
+                "telefono": "2615095611",
                 "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
                 "odontologia": [ "limpiezas", "caries", "extracciones"]
             },
@@ -231,7 +231,7 @@
                         "hours": ["09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00"]
                     }
                 ],
-                "telefono": "+54 9 261 469-6164",
+                "telefono": "2614696164",
                 "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
                 "odontologia": [ "limpiezas", "caries", "extracciones", "fluor"]
             } 
@@ -257,7 +257,7 @@
                         "hours": ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00"]
                     }
                 ],
-                "telefono": "+54 9 298 413-412",
+                "telefono": "298413412",
                 "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
                 "odontologia": [ "limpiezas", "caries", "extracciones", "fluor"]
             },
@@ -278,7 +278,7 @@
                         "hours": ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00"]
                     }
                 ],
-                "telefono": "+54 9 299 466-9167",
+                "telefono": "2994669167",
                 "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
                 "odontologia": [ "limpiezas", "caries", "extracciones", "fluor"]
             }
@@ -299,7 +299,7 @@
                         "hours": ["09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30"]
                     }
                 ],
-                "telefono": " +54 9 387 220-7467",
+                "telefono": "3872207467",
                 "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
                 "odontologia": [ "limpiezas"]
             }
@@ -320,7 +320,7 @@
                         "hours": ["08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30"]
                     }
                 ],
-                "telefono": "+54 9 385 412-6117",
+                "telefono": "3854126117",
                 "ortodoncia": [ "brackets-metalicos", "brackets-porcelana", "contenciones"],
                 "odontologia": [ "limpiezas", "caries", "extracciones", "fluor", "cirugias"]
             }
