@@ -1,6 +1,6 @@
 .appointment {
     background-image: url('/src/assets/fondo.png');
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 1400px) {
     .appointment {
-        height: 170vh;
+        height: 215vh;
     }
 }
 
